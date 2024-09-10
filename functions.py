@@ -16,7 +16,7 @@ def name():
   while True:
     name.name = input("Now before we begin, how about I know your name? ").strip().capitalize()
     if name.name != "":
-      if name.name == "Taylan":
+      if name.name == "John":
         print(name.name + "... What an excellent name! Now lets begin properly.\n")
         input("Press ENTER TO CONTINUE")
       else:
